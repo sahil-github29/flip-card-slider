@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Slider */
+.cardWidth {
+  width: 250px;
+}
+
+.cardSlider {
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-250px);
+}
